@@ -10,3 +10,11 @@ body{
 .ketter-spacing{
   letter-spacing: 0.5rem;
 }
+
+.header-hero {
+  min-height: calc(100vh - 56px);
+  background: linear-gradient(
+  rgba(241, 81, 37, 0.2),
+  rgba(241, 81, 37, 0.3)),
+  url("./images/homeBcg.jpeg") center/cover no-repeat;
+}
